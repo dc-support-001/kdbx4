@@ -1,0 +1,23 @@
+name: kdbx4
+description: >-
+  A pure-Dart reader/writer for the KDBX4 (KeePass) database format, built on
+  PointyCastle. Standalone, with no Flutter dependency.
+version: 0.1.0
+repository: https://github.com/dc-support-001/kdbx4
+issue_tracker: https://github.com/dc-support-001/kdbx4/issues
+topics:
+  - kdbx
+  - keepass
+  - password
+  - crypto
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  pointycastle: ^3.7.4
+  xml: ^7.0.1
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^5.0.0
